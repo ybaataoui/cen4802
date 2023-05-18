@@ -6,6 +6,7 @@ public class Fibonacci {
         int result = fibonacci(n);
         System.out.println("The " + n + "th term in the Fibonacci sequence is: " + result);
     }
+
     public static int fibonacci(int n) {
         if(n <= 1) {
             return n;
